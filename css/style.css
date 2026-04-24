@@ -18,3 +18,27 @@ body {
 footer a {
   text-decoration: none;
 }
+
+
+/* الصورة داخل السلايدر */
+.slider-img {
+  height: 85vh;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+  border-radius: 10px;
+   bottom: 20%;
+}
+
+
+
+#mainSlider .carousel-item {
+  height: 80vh;
+}
+
+#mainSlider img {
+  height: 100%;
+  object-fit: cover;
+}
