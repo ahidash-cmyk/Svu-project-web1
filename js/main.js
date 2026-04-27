@@ -13,12 +13,12 @@ const eventsData = [
   },
   {
     id: 2,
-    title: "ندوة ثقافية",
+    title: "ندوة تقنية",
     date: "2026-04-22",
     location: "دمشق",
-    category: "ثقافة",
-    description: "مناقشة قضايا ثقافية",
-    image: "assets/Culture1.jpg"
+    category: "تقنية",
+    description: "مناقشة قضايا تقنية",
+    image: "assets/AiImage.jpeg"
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const eventsData = [
     location: "حمص",
     category: "عائلي",
     description: "أنشطة وتعارف",
-    image: "images/event6.jpg"
+    image: "assets/debate.jpg"
   }
 ];
 
