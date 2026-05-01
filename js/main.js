@@ -1,6 +1,4 @@
-// ==========================
 // 📦 بيانات الفعاليات
-// ==========================
 const eventsData = [
   {
     id: 1,
@@ -59,9 +57,7 @@ const eventsData = [
 ];
 
 
-// ==========================
 // 🎯 Slider (Index) - يدوي
-// ==========================
 const latestContainer = document.getElementById("latestEventsContainer");
 
 if (latestContainer) {
@@ -103,9 +99,7 @@ if (latestContainer) {
 }
 
 
-// ==========================
 // 📄 صفحة الفعاليات (events)
-// ==========================
 const eventsContainer = document.getElementById("eventsContainer");
 
 function renderEvents(data) {
@@ -143,9 +137,7 @@ function renderEvents(data) {
 renderEvents(eventsData);
 
 
-// ==========================
 // 🔍 الفلترة
-// ==========================
 const searchInput = document.getElementById("searchInput");
 const categoryFilter = document.getElementById("categoryFilter");
 const dateFilter = document.getElementById("dateFilter");
@@ -181,9 +173,7 @@ if (searchInput) {
 }
 
 
-// ==========================
 // 📄 صفحة التفاصيل
-// ==========================
 const params = new URLSearchParams(window.location.search);
 const eventId = params.get("id");
 
@@ -213,9 +203,7 @@ if (eventId) {
 }
 
 
-// ==========================
 // 📩 Contact Form
-// ==========================
 const form = document.getElementById("contactForm");
 
 if (form) {
